@@ -20,7 +20,6 @@ var compoundCount = 0
 var compoundStep = 0
 var cutoffStep = 0
 var withdrawCooldown = 0
-
 var automationAccount
 
 var contract

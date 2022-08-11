@@ -126,7 +126,7 @@
 }
 
 .icon-custom {
-  color: #4F5D75;
+  color: #4f5d75;
   font-size: 24px;
 }
 
@@ -227,7 +227,7 @@ hr {
   justify-content: space-around !important;
 }
 .maintext {
-  color: #4F5D75;
+  color: #4f5d75;
   font-size: 50px;
 }
 /* Style The Dropdown Button */
@@ -295,14 +295,157 @@ hr {
   flex-direction: column;
   gap: 10px;
 }
-#automate_input{
-    flex: 2;
-    border: 1px solid #fff;
-    border-bottom: 1px solid #E0E0E0 !important;
-    border-radius: 7px;
-    padding: 5px 10px;
-    background: unset;
-    color: white;
-    font-size: 1rem;
-    line-height: 1.5;
+#automate_input {
+  flex: 2;
+  border: 1px solid #fff;
+  border-bottom: 1px solid #e0e0e0 !important;
+  border-radius: 7px;
+  padding: 5px 10px;
+  background: unset;
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.timer-blockchain {
+display: inline-block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #545075;
+    backdrop-filter: blur(12px);
+    color: #fff;
+    font-size: 39px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.timer2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 97%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.text-block-18 {
+  margin-bottom: 31px;
+}
+.text-block-18 {
+  margin-bottom: 33px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.text-block-19 {
+  margin-bottom: 34px;
+  color: #00df89;
+  font-size: 40px;
+}
+
+.text-block-19 {
+  margin-bottom: 29px;
+  font-size: 37px;
+}
+.div-block-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block-20 {
+  font-size: 22px;
+}
+
+.text-block-20 {
+  margin-left: 0px;
+  color: #41dff5;
+  font-size: 27px;
+}
+
+.div-block-20 {
+  margin-top: 33px;
+  color: #41dff5;
+  font-size: 20px;
+}
+.div-block-20 {
+  font-size: 16px;
+  line-height: 26px;
+}
+.text-block-25 {
+  font-size: 12px;
+}
+.text-block-25 {
+  color: #fff;
+}
+.wallet-text {
+  width: 100%;
+}
+.wallet-text {
+  font-size: 15px;
+  line-height: 28px;
+}
+.wallet-text {
+  width: 88%;
+  margin-top: 21px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+@media screen and (max-width: 425px) {
+  div.example {
+      color: #ffffff;
+      font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  div.example {
+      color: #41dff5;
+      font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  div.example {
+      color: #41dff5;
+      font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  div.example {
+      color: #41dff5;
+      font-size: 8px;
+  }
+}
+
+/* }
+@media screen and (max-width: 325px) {
+div.example {
+  color: #41dff5;
+  font-size: 7px;
+}
+
+} */
+@media screen and (max-width: 275px) {
+  div.example {
+      color: #41dff5;
+      font-size: 7px;
+  }
 }
