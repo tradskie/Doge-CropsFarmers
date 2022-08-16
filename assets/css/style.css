@@ -10,13 +10,13 @@
 --------------------------------------------------------------*/
 
 :root {
-  --primary: #7261A3;
-  --secondary: rgba(0, 0, 0, 0.8);
-  --secondary-dark: rgb(0, 0, 0, 0.8);
+  --primary: #7261a3;
+  --secondary: #1b3022;
+  --secondary-dark: rgba(182, 165, 165, 0.8);
   --token: #7261A3;
   --icons: #f89420;
   --busd-color: rgb(250, 90, 183);
-  --lines: rgb(255, 255, 255);
+  --lines: #7261a3;
 }
 
 @font-face {
@@ -93,7 +93,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #7261A3;
+  background: #7261a3;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -108,7 +108,7 @@ h6 {
   background: #151515;
 }
 .back-to-top:hover i {
-  color: #7261A3;
+  color: #7261a3;
 }
 .back-to-top.active {
   visibility: visible;
@@ -134,7 +134,7 @@ h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #7261A3;
+  border: 6px solid #7261a3;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -195,7 +195,7 @@ h6 {
   color: #fff;
 }
 #header .logo a span {
-  color: #7261A3;
+  color: #7261a3;
 }
 
 #header .logo img {
@@ -212,7 +212,7 @@ h6 {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 12px;
-  border: 1px solid #7261A3;
+  border: 1px solid #7261a3;
 
   margin: 0 20px;
   padding: 0 20px;
@@ -268,8 +268,7 @@ h6 {
   margin-bottom: 60px;
   margin-top: 50px;
   background-color: #e84141e0;
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
   display: inline-block;
 }
 
@@ -312,15 +311,14 @@ h6 {
   padding: 10px;
   max-width: 120px;
   border-radius: 6px;
-  border: 1px solid #7261A3;
+  border: 1px solid #7261a3;
   background-color: transparent;
   /* text-align: center; */
 }
 .navbar .mine:hover {
   color: #fff;
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
-  background-color: #7261A3;
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
+  background-color: #7261a3;
 }
 
 .navbar .bnb-miner {
@@ -330,8 +328,7 @@ h6 {
   padding: 10px;
   font-weight: bold;
   border: 2px solid #000;
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
   max-width: 200px;
   margin: 20px auto 20px auto;
 }
@@ -382,7 +379,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #7261A3;
+  color: #7261a3;
 }
 
 .banner-img {
@@ -424,7 +421,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  background-color: #7261A3;
+  background-color: #7261a3;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -514,7 +511,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #7261A3;
+  color: #7261a3;
 }
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
@@ -623,7 +620,7 @@ h6 {
   height: auto;
   width: auto;
   overflow-wrap: anywhere;
-  background: #7261A3;
+  background: #7261a3;
   position: relative;
   z-index: 0;
   overflow: hidden;
@@ -656,7 +653,7 @@ h6 {
   top: 6px;
   width: calc(100% - 12px);
   height: calc(100% - 12px);
-  background: #1B3022;
+  background: #1b3022;
   border-radius: 5px;
 }
 
@@ -833,13 +830,11 @@ h6 {
   border: 2px solid black;
   background-color: var(--token);
   text-align: center;
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
 }
 .mine-btn:hover {
   color: #fff;
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
 }
 
 @media (max-width: 768px) {
@@ -858,8 +853,7 @@ h6 {
   padding: 10px;
   transition: ease-in-out 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.4);
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
   border-radius: 10px;
   height: auto;
   overflow-wrap: anywhere;
@@ -917,7 +911,7 @@ h6 {
 
 .busd {
   /* font-size: 19px; */
-  color: #7261A3;
+  color: #7261a3;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -950,7 +944,7 @@ h6 {
 .disclaimer i {
   padding-right: 1px;
   font-size: 15px;
-  color: #7261A3;
+  color: #7261a3;
   line-height: 2;
 }
 
@@ -975,8 +969,7 @@ h6 {
   font-size: 21px;
   color: #fff;
   text-align: center;
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
 }
 
 /* Stats */
@@ -995,8 +988,7 @@ h6 {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   /* border: 1px solid #E84142; */
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
 }
 
 .stats-container ul {
@@ -1067,18 +1059,18 @@ h6 {
   display: inline-flex;
   padding-right: 5px;
   font-size: 17px;
-  color: #7261A3;
+  color: #7261a3;
   line-height: 1.5;
 }
 
 .overview #user-balance {
-  color: #7261A3;
+  color: #7261a3;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 .overview #max-investment {
-  color: #7261A3;
+  color: #7261a3;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -1185,8 +1177,7 @@ section {
 
 .services .lottery-container {
   border: 1px solid rgba(255, 255, 255, 0.4);
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
 
   border-radius: 10px;
   /* height: 100%; */
@@ -1338,8 +1329,7 @@ section {
 }
 .services .icon-box:hover {
   border: 1px solid rgba(255, 255, 255, 0.5);
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
   transition: 0.1s ease-in;
 }
 
@@ -1435,8 +1425,7 @@ section {
 .btn-withdraw:hover {
   color: #fff;
   background-color: #f0b90b;
-  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%),
-    inset 0px 0px 0px rgb(0 0 0 / 32%);
+  box-shadow: 0px 5px 20px rgb(255 255 255 / 30%), inset 0px 0px 0px rgb(0 0 0 / 32%);
 }
 
 .cooldown {
@@ -1533,8 +1522,8 @@ section {
   # Footer
   --------------------------------------------------------------*/
 #footer {
-  background: var(--secondary-dark);
-  padding: 0 0 30px 0;
+  background: var(--secondary);
+  padding: 17px 17px !important;
   color: #fff;
   font-size: 14px;
 }
@@ -1555,7 +1544,7 @@ section {
   text-transform: uppercase;
 }
 #footer .footer-top .footer-info h3 span {
-  color: #7261A3;
+  color: #7261a3;
 }
 #footer .footer-top .footer-info p {
   font-size: 14px;
@@ -1579,7 +1568,7 @@ section {
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #7261A3;
+  background: #7261a3;
   color: #151515;
   text-decoration: none;
 }
@@ -1600,7 +1589,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #7261A3;
+  color: #7261a3;
   font-size: 18px;
   line-height: 1;
 }
@@ -1619,7 +1608,7 @@ section {
   line-height: 1;
 }
 #footer .footer-top .footer-links ul a:hover {
-  color: #7261A3;
+  color: #7261a3;
 }
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
@@ -1642,7 +1631,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #7261A3;
+  background: #7261a3;
   color: #151515;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -1652,10 +1641,8 @@ section {
 }
 #footer .copyright {
   text-align: center;
-  padding-top: 30px;
 }
 #footer .credits {
-  padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #fff;
@@ -1699,7 +1686,7 @@ section {
   position: absolute;
   right: 0;
   left: 20px;
-  color: #7261A3;
+  color: #7261a3;
 }
 .faq .faq-list .icon-show,
 .faq .faq-list .icon-close {
@@ -1719,7 +1706,7 @@ section {
   color: rgba(255, 255, 255, 0.8);
 }
 .faq .faq-list a.collapsed:hover {
-  color: #7261A3;
+  color: #7261a3;
 }
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
